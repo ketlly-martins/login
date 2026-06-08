@@ -1,0 +1,156 @@
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fff0f3; 
+    color: #5c4d51;
+}
+
+
+.painel-header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ffe3e8; 
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.25);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff758f; 
+    letter-spacing: 0.5px;
+}
+
+.menu a {
+    color: #ff8fa3;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff4d6d; 
+}
+
+
+.btn-sair {
+    background-color: #ffccd5;
+    color: #ff4d6d;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.btn-sair:hover {
+    background-color: #ffb3c1;
+    transform: scale(1.05); 
+}
+
+
+.painel-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-card {
+    background-color: #ffffff;
+    padding: 45px 35px;
+    border-radius: 30px; 
+    border: 3px solid #ffe5ec; 
+    box-shadow: 0 15px 35px rgba(255, 143, 163, 0.3); 
+    width: 100%;
+    max-width: 580px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cadastro-card h1 {
+    font-size: 30px;
+    color: #ff4d6d;
+    margin: 0 0 5px 0;
+}
+
+.subtitulo {
+    color: #ff8fa3;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 35px 0;
+}
+
+
+.input-group {
+    margin-bottom: 24px; 
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 13px;
+    color: #ff758f; 
+    margin-bottom: 8px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 2px solid #ffe5ec; 
+    border-radius: 15px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #fffbfb; 
+    color: #5c4d51;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+.input-group input:focus {
+    border-color: #ff758f;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(255, 117, 143, 0.4); 
+}
+
+
+.form-linha {
+    display: flex;
+    gap: 18px; 
+
+.form-linha .input-group {
+    flex: 1;
+}
+
+
+.btn-entrar {
+    background: #ff8fa3 !important; 
+    color: white !important; 
+    border: none !important; 
+    border-radius: 12px !important;
+    padding: 12px 20px !important; 
+    font-size: 16px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+
+/
+.btn-entrar:hover {
+    background: #ff758f !important;
+}
+}
